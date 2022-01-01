@@ -6,21 +6,25 @@
 pip3 install -r dep.txt
 ```
 
-## 2. Test the sensor by running:
+## 2. Testing the sensor:
+
+The seti2c.py file contails necessary code for testing and setting the device to i2c over serial communication. Run the following command to read using the serial port:
 
 ```
 python3 seti2c.py
 ```
 
-Enter the serial port addess and select option 1 to read data from the sensor.
+Enter the ***serial port*** addess and select ***option 1*** to read data from the sensor.
 
 ## 3. Set device to i2c:
 
+The device can be set to i2c mode by running the command:
+
 ```
 python3 seti2c.py
 ```
 
-Enter the serial port address and select option 2 to set the sensor to i2c mode.
+Then enter the ***serial port*** address and select ***option 2*** to set the sensor to i2c mode.
 
 
 ## 4. Using the sensor:

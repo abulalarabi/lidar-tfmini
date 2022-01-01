@@ -33,11 +33,10 @@ lidar = driver.tfMiniS(addr = 0x10, bus = 32)
 
 Then call the *getData()* function. The function returns 1 if the read was successful. Else, returns 0. The data and status can be read as following:
 
-
-*if lidar1.getData(): # check if the data was read successfully*
-
-    *print('Distance: ',lidar1.dist,'\t Flux: ', lidar1.flux, '\t LTemp: ',lidar1.temp) # print the values*
+```
+if lidar.getData(): # check if the data was read successfully
+    print('Distance: ',lidar1.dist,'\t Flux: ', lidar1.flux, '\t LTemp: ',lidar1.temp) # print the values
     
-*else:*
-
-    *print(lidar1.status) # if reading fails then print the status*
+else:
+    print(lidar1.status) # if reading fails then print the status
+```

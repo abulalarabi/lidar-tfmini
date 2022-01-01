@@ -1,0 +1,3 @@
+tfmplus
+smbus2
+pyserial

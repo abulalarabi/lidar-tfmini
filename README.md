@@ -2,8 +2,9 @@
 
 ## 1. Install dependencies by running: 
 
+```
 *pip3 install -r dep.txt*
-
+```
 
 ## 2. Test the sensor by running:
 

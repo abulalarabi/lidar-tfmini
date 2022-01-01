@@ -40,3 +40,5 @@ if lidar.getData(): # check if the data was read successfully
 else:
     print(lidar1.status) # if reading fails then print the status
 ```
+
+The example script can be found in the *read.py* file.

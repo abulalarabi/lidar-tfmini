@@ -45,4 +45,14 @@ else:
     print(lidar1.status) # if reading fails then print the status
 ```
 
-The example script can be found in the *read.py* file.
+The example script can be found in the ***read.py*** file.
+
+
+## 5. Multiple sensors:
+The ***tfMiniS*** can be used to create an array of sensors and read from multiple sensors. Such as:
+
+```
+lidars = [driver.tfMiniS(addr = addr[i], bus = bus[i]) for i in range(0,NUM_OF_SENSORS)]
+```
+
+The multi-sensor script can be found in  ***multi_lidar.py*** file.

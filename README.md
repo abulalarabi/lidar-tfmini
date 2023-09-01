@@ -1,4 +1,5 @@
-# lidar-tfmini
+# tfmini lidar
+This repo contains codes and instructions for working with TFMINI LIDAR in Jetson Xavier. This should also work with Jetson Nano.
 
 ## 1. Install dependencies by running: 
 
